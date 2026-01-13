@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# hugo
+public/
+resources/
+.hugo_build.lock
+
+# Local Netlify folder
+.netlify
+node_modules
+
+# direnv
+.envrc
