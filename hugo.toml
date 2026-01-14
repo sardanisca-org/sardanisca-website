@@ -1,3 +1,26 @@
 baseURL = 'https://sardanisca.org/'
 languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
+defaultContentLanguage = "pt"
+theme = 'sardanisca'
+copyright = "Nuno Godinho"
+pagination.PageSize = 15
+refLinksErrorLevel = "WARNING"
+sectionPagesMenu = 'main'
+
+[params]
+description = "Site do Centro Cultural Sardanisca"
+keywords = "Arte, Música, Alentejo"
+
+[permalinks]
+posts = "/:year/:slug/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/athulcajay/"
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://instagram.com/sardanisca.centrocultural/"
