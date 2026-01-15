@@ -3,7 +3,7 @@ languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
 defaultContentLanguage = "pt"
 theme = 'sardanisca'
-copyright = "Nuno Godinho"
+copyright = "Sardanisca"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
 
