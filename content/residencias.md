@@ -1,5 +1,5 @@
 ---
-menus: main
+type: page
 title: Residências
 draft: true
 ---

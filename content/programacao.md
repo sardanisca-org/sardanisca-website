@@ -1,5 +1,5 @@
 ---
-menus: main
+type: page
 title: Programação
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-menus: main
+type: page
 title: Sobre
 draft: true
 ---
