@@ -6,11 +6,11 @@ theme = 'sardanisca'
 copyright = "Nuno Godinho"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
-sectionPagesMenu = 'main'
 
 [params]
 description = "Site do Centro Cultural Sardanisca"
 keywords = "Arte, Música, Alentejo"
+mode = "toggle"
 
 [permalinks]
 posts = "/:year/:slug/"
@@ -24,3 +24,23 @@ url = "https://twitter.com/athulcajay/"
 name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/sardanisca.centrocultural/"
+
+[[menu.main]]
+  name = "Sobre"
+  url = "/sobre/"
+  weight = 1
+
+[[menu.main]]
+  name = "Residências"
+  url = "/residencias/"
+  weight = 2
+
+[[menu.main]]
+  name = "Programação"
+  url = "/programacao/"
+  weight = 3
+
+[[menu.main]]
+  name = "Formação"
+  url = "/formacao/"
+  weight = 4
