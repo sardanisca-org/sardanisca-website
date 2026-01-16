@@ -4,4 +4,4 @@ title: Sobre
 draft: true
 ---
 
-Somos um Centro Cultural familiar. A família é composta pelo Filipa, pelo Nuno e pela Maria.
+Sardanisca é um pequeno centro cultural familiar nas Courelas do Monte Branco. Tem como objectivo contribuir para a promoção e disseminação de arte contemporânea e popular na região através da organização de residências artísticas, eventos culturais e de formação nas áreas de artes plásticas, artes visuais e música.
