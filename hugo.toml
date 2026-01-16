@@ -31,14 +31,14 @@ url = "https://instagram.com/sardanisca.centrocultural/"
   weight = 1
 
 [[menu.main]]
-  name = "Residências"
-  url = "/residencias/"
-  weight = 2
-
-[[menu.main]]
   name = "Programação"
   url = "/programacao/"
-  weight = 3
+  weight = 2
+
+  [[menu.main]]
+    name = "Residências"
+    url = "/residencias/"
+    weight = 3
 
 [[menu.main]]
   name = "Formação"
