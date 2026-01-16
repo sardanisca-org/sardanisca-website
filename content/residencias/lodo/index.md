@@ -1,8 +1,8 @@
 ---
 title: Lodo
 type: residencia
-date: 2026-11-11
-date_end: 2026-11-16
+date: 2025-11-11
+date_end: 2025-11-16
 draft: true
 ---
 
