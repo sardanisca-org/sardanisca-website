@@ -23,7 +23,7 @@
       {{- if $svgResource -}}
         {{- $featherURL = ($svgResource | fingerprint).RelPermalink -}}
       {{- else -}}
-        {{- $featherURL = (absURL "svg/feather-sprite.svg") -}}
+        {{- $featherURL = (relURL "svg/feather-sprite.svg") -}}
       {{- end -}}
     {{- end -}}
     <svg class="feather">
@@ -42,7 +42,7 @@
 		{{ end }}
 		{{ if eq .Site.Params.mode "toggle" -}}
 		<button id="dark-mode-toggle" class="nav-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" type="button">{{template "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "sun") }}</button>
-		<script src="{{ absURL "js/themetoggle.js" }}"></script>
+		<script src="{{ relURL "js/themetoggle.js" }}"></script>
 		{{ end }}
 	</nav>
 </header>
