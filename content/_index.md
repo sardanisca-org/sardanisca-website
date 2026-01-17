@@ -1,5 +1,5 @@
 ---
 title: Bem-vindo
-draft: true
+draft: false
 ---
 O que dizer aqui?

@@ -1,7 +1,7 @@
 ---
 type: page
 title: Sobre
-draft: true
+draft: false
 ---
 
 Sardanisca é um pequeno centro cultural familiar nas Courelas do Monte Branco. Tem como objectivo contribuir para a promoção e disseminação de arte contemporânea e popular na região através da organização de residências artísticas, eventos culturais e de formação nas áreas de artes plásticas, artes visuais e música.
