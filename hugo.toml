@@ -2,7 +2,7 @@ baseURL = 'https://sardanisca.org/'
 languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
 defaultContentLanguage = "pt"
-theme = 'sardanisca'
+theme = ["hugo-cloak-email", "sardanisca"]
 copyright = "Sardanisca"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
@@ -16,11 +16,6 @@ mode = "toggle"
 posts = "/:year/:slug/"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
-
-[[params.social]]
 name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/sardanisca.centrocultural/"
@@ -31,16 +26,16 @@ url = "https://instagram.com/sardanisca.centrocultural/"
   weight = 1
 
 [[menu.main]]
-  name = "Programação"
-  url = "/programacao/"
+  name = "Eventos"
+  url = "/eventos/"
   weight = 2
 
-  [[menu.main]]
-    name = "Residências"
-    url = "/residencias/"
-    weight = 3
+[[menu.main]]
+  name = "Residências"
+  url = "/residencias/"
+  weight = 3
 
 [[menu.main]]
-  name = "Formação"
-  url = "/formacao/"
+  name = "Contactos"
+  url = "/contactos/"
   weight = 4
