@@ -28,12 +28,12 @@ X-Content-Type-Options = "nosniff"
 X-Frame-Options = "SAMEORIGIN"
 X-XSS-Protection = "0"
 
-[[plugins]]
-package = "@netlify/plugin-sitemap"
+#[[plugins]]
+#package = "@netlify/plugin-sitemap"
 
-[[plugins]]
-package = "netlify-plugin-submit-sitemap"
-pinned_version = "0.4.0"
+#[[plugins]]
+#package = "netlify-plugin-submit-sitemap"
+#pinned_version = "0.4.0"
 
 [[plugins]]
 package = "netlify-plugin-checklinks"
