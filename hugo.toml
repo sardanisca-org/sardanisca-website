@@ -11,6 +11,7 @@ refLinksErrorLevel = "WARNING"
 description = "Site do Centro Cultural Sardanisca"
 keywords = "Arte, Música, Alentejo"
 mode = "toggle"
+date_format = "2.Jan2006"
 
 [permalinks]
 posts = "/:year/:slug/"
@@ -34,8 +35,3 @@ url = "https://instagram.com/sardanisca.centrocultural/"
   name = "Residências"
   url = "/residencias/"
   weight = 3
-
-[[menu.main]]
-  name = "Contactos"
-  url = "/contactos/"
-  weight = 4
