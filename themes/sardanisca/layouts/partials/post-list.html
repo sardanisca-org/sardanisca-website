@@ -1,0 +1,14 @@
+{{- if and .posts (gt (len .posts) 0) -}}
+  <h2>{{ .title }}</h2>
+  <ul class="posts">
+    {{- range .posts -}}
+      <li class="post">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="meta">
+          {{ dateFormat .Site.Params.date_format (time.AsTime (.Params.date_start | default .Date)) }}
+          {{ if .Draft }}<span class="draft-label">DRAFT</span>{{ end }}
+        </span>
+      </li>
+    {{- end -}}
+  </ul>
+{{- end -}}
