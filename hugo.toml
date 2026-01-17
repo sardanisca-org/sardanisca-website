@@ -1,4 +1,4 @@
-baseURL = 'https://sardanisca.org/'
+baseURL = env "DEPLOY_PRIME_URL" "https://sardanisca.org"
 languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
 defaultContentLanguage = "pt"
