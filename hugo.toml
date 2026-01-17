@@ -1,4 +1,4 @@
-baseURL = 'https://sardanisca-website.netlify.app/'
+baseURL = 'https://sardanisca.org'
 languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
 defaultContentLanguage = "pt"
@@ -6,6 +6,7 @@ theme = ["hugo-cloak-email", "sardanisca"]
 copyright = "Sardanisca"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
+relativeURLs = true
 
 [params]
 description = "Site do Centro Cultural Sardanisca"
