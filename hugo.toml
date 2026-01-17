@@ -24,6 +24,11 @@ name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/sardanisca.centrocultural/"
 
+[[params.social]]
+name = "E-mail"
+icon = "mail"
+url = "mailto:info@sardanisca.org"
+
 [[menu.main]]
   name = "Sobre"
   url = "/sobre/"
