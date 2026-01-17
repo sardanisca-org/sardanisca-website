@@ -1,0 +1,64 @@
+[build]
+command = "./netlify_build.sh"
+publish = "public"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.91.2"
+
+[context.production.environment]
+HUGO_ENV = "production"
+HUGO_VERSION = "0.91.2"
+
+[dev]
+framework = "hugo"
+
+[functions]
+directory = "netlify/functions"
+node_bundler = "esbuild"
+
+[functions.call-build-hook]
+schedule = "5 9 * * *"
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+Referrer-Policy = "no-referrer"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "SAMEORIGIN"
+X-XSS-Protection = "0"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+[[plugins]]
+package = "netlify-plugin-submit-sitemap"
+pinned_version = "0.4.0"
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+[[plugins]]
+package = "netlify-plugin-hugo-cache-resources"
+
+[plugins.inputs]
+debug = false
+
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+pinned_version = "5.0.0"
+
+[plugins.inputs]
+output_path = "reports/lighthouse.html"
+
+[[redirects]]
+force = false
+from = "/*"
+status = 301
+to = "/en/:splat"
+
+[redirects.conditions]
+Language = ["en"]
+
+[redirects.query]
+path = ":path"
