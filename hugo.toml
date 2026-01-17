@@ -13,6 +13,8 @@ description = "Site do Centro Cultural Sardanisca"
 keywords = "Arte, Música, Alentejo"
 mode = "toggle"
 date_format = "2.Jan2006"
+mathjax = false
+katex = false
 
 [permalinks]
 posts = "/:year/:slug/"
