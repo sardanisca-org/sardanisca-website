@@ -3,11 +3,11 @@ command = "./netlify_build.sh"
 publish = "public"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.91.2"
+HUGO_VERSION = "0.154.3"
 
 [context.production.environment]
 HUGO_ENV = "production"
-HUGO_VERSION = "0.91.2"
+HUGO_VERSION = "0.154.3"
 
 [dev]
 framework = "hugo"
