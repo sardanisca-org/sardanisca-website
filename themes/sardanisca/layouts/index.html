@@ -4,7 +4,23 @@
 	<body>
 		<div class="content">
 			{{ partial "head.html" . }}
-			
+
+      <div class="post-container">
+        <!-- Main Content -->
+        <div class="post-content">
+          <div class="title">
+            {{ if isset .Data "Term" }}
+            <h1>Entries tagged - "{{ .Data.Term }}"</h1>
+            {{ else }}
+            <h1 class="title">{{ .Title }}</h1>
+            {{ end }}
+          </div>
+            <section class="body">
+              {{ .Content }}
+            </section>
+        </div>
+      </div>
+
 			<main class="list">
 				<div class="site-description">
 					{{- if isset .Site.Params "subtitle" -}}
@@ -16,15 +32,13 @@
 				{{ range $paginator.Pages }}
 				<section class="list-item">
 					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					<br>{{ template "partials/pagedescription.html" . }}
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+					<time>{{ dateFormat .Site.Params.date_format .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}
 			</main>
 			{{ partial "footer.html" . }}
 		</div>
-		
+
 	</body>
 </html>
