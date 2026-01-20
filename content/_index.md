@@ -2,4 +2,4 @@
 title: Bem-vindo
 draft: false
 ---
-O que dizer aqui?
+Isto é a homepage. O que dizer aqui?
