@@ -1,7 +1,7 @@
 ---
 slug: tempo-da-la-1
 title: Tempo Da Lã - Fase 1
-date: 2026-05-21T00:00:00Z
+date: 2026-01-21T00:00:00Z
 date_start: 2025-05-23T00:00:00Z
 date_end: 2025-05-31T00:00:00Z
 ---
