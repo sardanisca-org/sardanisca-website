@@ -34,7 +34,7 @@
 
 <header>
 	<div class="main">
-		<a href="{{ relLangURL "/" }}">{{ .Site.Title }}</a>
+	  <a href="{{ relLangURL "/" }}">{{ partial "color-o.html" .Site.Title }}</a>
 	</div>
 	<nav>
 		{{ range .Site.Menus.main }}
