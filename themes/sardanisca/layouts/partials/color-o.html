@@ -1,0 +1,2 @@
+{{- $str := . -}}
+{{- replaceRE "o" (printf "<span class='logo-o'>o</span>") $str | safeHTML -}}
