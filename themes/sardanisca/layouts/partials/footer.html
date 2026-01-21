@@ -17,6 +17,9 @@
   <div class="footer-info">
     {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} {{ partial "cloakemail" (dict "address" "info@sardanisca.org") }}
   </div>
+  <div class="footer-info-small">
+    Construído com <a href="https://gohugo.io">Hugo</a> e o tema <a href="https://github.com/athul/archie">Archie</a>.
+  </div>
 </footer>
 {{ if not hugo.IsServer }} {{ template "_internal/google_analytics.html" . }} {{
 end }}

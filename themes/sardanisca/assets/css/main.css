@@ -789,3 +789,16 @@ nav {
 .logo-o {
   color: var(--color-primary, #dc2626);
 }
+
+.footer-info-small {
+  color: #aaaaaa;
+  font-size: 0.8em;
+  transform-origin: center center;
+  text-align: left;
+  width: 100%;     /* Full parent width */
+  clear: both;     /* Clear any floats from siblings */
+}
+
+.footer-info-small a {
+  border-bottom: 0px;
+}
