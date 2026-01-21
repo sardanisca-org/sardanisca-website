@@ -1,6 +1,6 @@
 ---
 slug: tempo-da-la-1
-title: Tempo Da Lã - Fase 1
+title: Tempo da lã | fase 1
 date: 2026-01-21T00:00:00Z
 date_start: 2025-05-23T00:00:00Z
 date_end: 2025-05-31T00:00:00Z
@@ -33,3 +33,6 @@ Assume-se o vagar como metodologia e ética, num respeito pelo tempo do material
 Filipa Marques Dias
 
 Nasci na Beira Baixa em 1975 e hoje vivo em Lisboa.  Estudei sociologia mas trabalho na área do marketing, design e produção artística. No atelier de arquitetura Falanstério sou responsável pelas redes sociais e marketing digital;  Na Tsuri, marca que criei em 2016, desenvolvo objetos de luz feitos manualmente. Tirei o curso de teatro no Evoé. Sou especialista em papel, origamista e desenvolvo projetos de fabricação de papel. Recentemente tirei o curso de trabalhar a lã (da ovelha ao fio) feltragem e tingimento natural que pretendo aprofundar mais.
+[@filipadias_art][1]
+
+[1]: <https://instagram.com/filipadias_art>
