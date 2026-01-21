@@ -1,20 +1,34 @@
+{{- $pages := .pages | default slice -}}
 {{- $excluded := .Site.Params.excludedTypes | default (slice "page") -}}
+{{- $filteredPages := where $pages "Type" "not in" $excluded -}}
+
+{{/* Custom sort por date_start */}}
+{{- $tempPages := slice -}}
+{{ range $filteredPages }}
+  {{- $dateStart := .Params.date_start | default .Date -}}
+  {{- $dateStartTime := time.AsTime $dateStart -}}
+  {{- $tempPages = $tempPages | append (dict "page" . "timestamp" $dateStartTime.Unix) -}}
+{{ end }}
+{{- $sortedTemp := sort $tempPages "timestamp" "desc" -}}
+{{- $sortedPages := slice -}}
+{{ range $sortedTemp }}
+  {{- $sortedPages = $sortedPages | append .page -}}
+{{ end }}
+
 {{- $past := slice -}}
 {{- $future := slice -}}
 {{- $futureTitle := .future_title | default "Futuro" -}}
 {{- $pastTitle := .past_title | default "Passado" -}}
 
-{{- range .pages -}}  <!-- Use .pages instead of .Data.Pages -->
+{{ range $sortedPages }}
   {{- $start := .Params.date_start | default .Date -}}
   {{- $startTime := time.AsTime $start -}}
-  {{- if not (in $excluded .Type) -}}
-    {{- if lt $startTime.Unix now.Unix -}}
-      {{- $past = $past | append . -}}
-    {{- else -}}
-      {{- $future = $future | append . -}}
-    {{- end -}}
+  {{- if lt $startTime.Unix (now).Unix -}}
+    {{- $past = $past | append . -}}
+  {{- else -}}
+    {{- $future = $future | append . -}}
   {{- end -}}
-{{- end -}}
+{{ end }}
 
 {{ partial "post-list.html" (dict "posts" $future "title" $futureTitle) }}
 {{ partial "post-list.html" (dict "posts" $past "title" $pastTitle) }}
