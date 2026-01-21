@@ -2,7 +2,7 @@
 <main>
   <article>
     {{- partial "title-and-content.html" . -}}
-    {{- partial "past-and-future-lists.html" (dict "pages" .Data.Pages "future_title" "Próximos" "past_title" "Anteriores") -}}
   </article>
+  {{- partial "past-and-future-lists.html" (dict "pages" .Data.Pages "future_title" "Próximos" "past_title" "Anteriores") -}}
 </main>
 {{ end }}
