@@ -2,28 +2,28 @@
 <html>
 	{{ partial "header.html" . }}
 	<body>
-		<div class="content">
-			{{ partial "head.html" . }}
-			{{- partial "title-and-content.html" . -}}
-
-			<main class="list">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
-					{{- end -}}
-				</div>
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
-				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat .Site.Params.date_format .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-				</section>
-				{{ end }}
-				{{ template "partials/paginator.html" . }}
-			</main>
-			{{ partial "footer.html" . }}
-		</div>
-
+	  <article>
+  		<div class="content">
+  			{{ partial "head.html" . }}
+  			<main class="list">
+  			  {{- partial "title-and-content.html" . -}}
+  				<div class="site-description">
+  					{{- if isset .Site.Params "subtitle" -}}
+  					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
+  					{{- end -}}
+  				</div>
+  				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+  				{{ range $paginator.Pages }}
+  				<section class="list-item">
+  					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
+  					<time>{{ dateFormat .Site.Params.date_format .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+  				</section>
+  				{{ end }}
+  				{{ template "partials/paginator.html" . }}
+  			</main>
+  			{{ partial "footer.html" . }}
+  		</div>
+		</article>
 	</body>
 </html>
