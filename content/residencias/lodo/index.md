@@ -21,5 +21,18 @@ Futuramente, temos intenção de levar o projecto "No Lodo" de volta à Sardanis
 
 **João Godinho (Lisboa, 1976)**, compositor com trabalho apresentado e premiado nacional e internacionalmente, cuja escrita, além da música erudita, abrange estéticas como o jazz, a música para cinema, o fado e a música tradicional portuguesa. Das múltiplas parcerias que vai desenvolvendo, destaca-se a colaboração regular com a pianista Joana Gama, nomeadamente em projectos como “Nocturno”, “As árvores não têm pernas para andar” e “Pássaros e Cogumelos”. Em 2019 estreou, na Konzerthaus de Berlim e no Centro Cultural de Belém em Lisboa, a peça Alcance, para 5 Solistas e Orq. Sinfónica (Jovem Orquestra Portuguesa, dir. Pedro Carneiro), uma encomenda da OCPsolidária em parceria com a CERCI-Oeiras, tendo neste contexto sido distinguido com o Prémio Compositor Europeu 2019. Entre 2007 e 2011 trabalhou no Centro Cultural de Belém, primeiro como assessor de imprensa e mais tarde como programador na área da música. Colabora regularmente com a Rádio Antena 2, sendo autor e locutor dos programas Fora de Formato (2019), Pausa para Dançar (2020-2022) e Quem canta assim (desde 2023). Em 2024 compôs música e sonoplastia para a longa metragem Pai Nosso – Os últimos dias de Salazar, com realização de José Filipe Costa. [www.joaogodinho.com][2]
 
+![](images/0D8A215B-29EC-4477-8B44-24DAE146A818.jpg)
+![](images/3C67AB4D-A502-4FD7-8CAA-4099E6F6B242.jpg)
+![](images/7A3301E7-26C7-4FF6-AFD6-8E7B4BA9B542.jpg)
+![](images/9BA6C70E-0151-412C-9A73-C025F31CC8A6.jpg)
+![](images/348A76EE-6413-46ED-AC3A-9F3ED8DFDA8A.jpg)
+![](images/06224DE2-2314-4AD1-8DEA-678377107DD3.jpg)
+![](images/CA8267D3-7ACD-4351-B587-DE45708F4B1F.jpg)
+![](images/CD3655C1-CDFE-485C-8208-DA3C76BB55D1.jpg)
+![](images/EF543F03-2528-480F-BD53-38A0A90E7A99.jpg)
+![](images/F3B18FE7-F07D-4FD7-86C9-9A386EDD7E1A.jpg)
+![](images/FD17DB8B-CAF7-447F-A131-5BF1D6F4D61F.jpg)
+![](images/FD51868B-C21F-450E-AD7C-F2B077315EFE.jpg)
+
 [1]: <https://www.descolagem.pt>
 [2]: <https://www.joaogodinho.com>
