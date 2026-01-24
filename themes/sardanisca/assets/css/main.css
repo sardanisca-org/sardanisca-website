@@ -173,14 +173,13 @@ ul > li::before {
 
 /* Images */
 img {
-  border: 3px solid var(--color-background-pre, #ececec);
+  border: 0px solid var(--color-background-pre, #ececec);
   /* Fallback for older browsers */
   max-width: 100%;
   height: auto;
   /* Modern logical properties */
   max-inline-size: 100%;
   block-size: auto;
-  border-radius: var(--border-radius, 5px);
 }
 
 figure {
