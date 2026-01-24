@@ -35,24 +35,13 @@ Filipa Marques Dias
 Nasci na Beira Baixa em 1975 e hoje vivo em Lisboa.  Estudei sociologia mas trabalho na área do marketing, design e produção artística. No atelier de arquitetura Falanstério sou responsável pelas redes sociais e marketing digital;  Na Tsuri, marca que criei em 2016, desenvolvo objetos de luz feitos manualmente. Tirei o curso de teatro no Evoé. Sou especialista em papel, origamista e desenvolvo projetos de fabricação de papel. Recentemente tirei o curso de trabalhar a lã (da ovelha ao fio) feltragem e tingimento natural que pretendo aprofundar mais.
 [@filipadias_art][1]
 
-## A tosquia
+## Tosquia
 
-![](images/20250525_063152.jpg)
-![](images/20250525_073640.jpg)
-![](images/20250525_073739.jpg)
-![](images/20250525_073157588_iOS.jpg)
-![](images/20250525_073731274_iOS.jpg)
-![](images/20250525_080653365_iOS.jpg)
-![](images/IMG_6183.jpg)
-![](images/202505-004.jpg)
-![](images/202505-006.jpg)
-![](images/202505-009.jpg)
-![](images/202505-011.jpg)
-![](images/202505-015.jpg)
-![](images/202505-017.jpg)
-![](images/202505-018.jpg)
-![](images/202505-019.jpg)
-![](images/202505-100.jpg)
-![](images/202505-201.jpg)
+{{< gallery-nolink match="images/tosquia-primeira/*"  cols=1 >}}
+{{< gallery-nolink match="images/tosquia/*"  cols=2 >}}
+
+## Imagens
+
+{{< gallery-nolink match="images/outras/*"  col_sm=6 col_md=6 col_lg=6 >}}
 
 [1]: <https://instagram.com/filipadias_art>
