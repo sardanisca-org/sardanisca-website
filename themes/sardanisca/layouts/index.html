@@ -12,15 +12,6 @@
   					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
   					{{- end -}}
   				</div>
-  				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-  				{{ range $paginator.Pages }}
-  				<section class="list-item">
-  					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-  					<time>{{ dateFormat .Site.Params.date_format .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-  				</section>
-  				{{ end }}
-  				{{ template "partials/paginator.html" . }}
   			</main>
   			{{ partial "footer.html" . }}
   		</div>
