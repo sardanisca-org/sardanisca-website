@@ -23,3 +23,10 @@
 </footer>
 {{ if not hugo.IsServer }} {{ template "_internal/google_analytics.html" . }} {{
 end }}
+<script>
+Fancybox.bind("[data-fancybox]", {
+  // Optional configuration
+  Toolbar: { autoEnableSingleSlide: false },
+  Images: { initialSize: "fit" }
+});
+</script>
