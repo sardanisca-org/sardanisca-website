@@ -14,6 +14,7 @@ keywords = "Arte, Música, Alentejo"
 date_format = "2.Jan2006"
 mathjax = false
 katex = false
+customCSS = ["css/fancybox-custom.css"]
 
 [permalinks]
 posts = "/:year/:slug/"
