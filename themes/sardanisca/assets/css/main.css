@@ -787,6 +787,7 @@ nav {
 
 .logo-o {
   color: var(--color-primary, #dc2626);
+  font-weight: normal;
 }
 
 .footer-info-small {

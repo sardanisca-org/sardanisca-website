@@ -1,17 +1,17 @@
+{{- $cols := .Get "cols" | default "1" -}}
+{{- $height := .Get "height" | default "250px" -}}
 
-{{- $col_sm := .Get "col_sm" | default 6 -}}
-{{- $col_md := .Get "col_md" | default 4 -}}
-{{- $col_lg := .Get "col_lg" | default 3 -}}
-<div class="container-fluid gallery">
-  <div class='row no-gutters'>
+<div class="image-gallery" style="--cols: {{ $cols }}; --height: {{ $height }};">
   {{ with .Page.Resources.Match (.Get "match") }}
     {{ with .ByType "image" }}
     {{ range . }}
-    <div class="col-xs-12 col-sm-{{$col_sm}} col-md-{{$col_md}} col-lg-{{$col_lg}} gallery_item">
-        <img src="{{ .RelPermalink }}" loading="lazy" alt="{{ .Name }}">
-    </div>
+    <figure class="gallery-item">
+        <img src="{{ .RelPermalink }}"
+             alt="{{ .Name }}"
+             loading="lazy"
+             style="width: 100%; object-fit: cover;">
+    </figure>
     {{ end }}
     {{ end }}
   {{ end }}
-  </div>
 </div>
