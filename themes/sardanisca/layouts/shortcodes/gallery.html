@@ -3,7 +3,7 @@
 {{- $gap := .Get "gap" | default "5px" -}}
 {{- $match := .Get "match" | default "images/*" -}}
 {{- $galleryName := .Get "name" | default "gallery" -}}
-{{- $clickable := .Get "clickable" | default "true" -}}
+{{- $clickable := .Get "clickable" | default "false" -}}
 
 <div class="image-gallery" style="display: grid; grid-template-columns: repeat({{ $cols }}, 1fr); gap: {{ $gap }}; margin: 0.3rem 0;">
   {{- with .Page.Resources.Match $match -}}
