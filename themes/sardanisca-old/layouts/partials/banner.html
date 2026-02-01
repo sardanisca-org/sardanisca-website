@@ -1,8 +1,0 @@
-{{ $bannerPath := "images/banner.jpg" }}
-{{ $banner := .Resources.GetMatch (printf "*%s" $bannerPath) }}
-{{ if $banner }}
-<div class="banner-header">&nbsp;</div>
-<div class="banner">
-    <img src="{{ $banner.RelPermalink }}" alt="Banner" class="banner-image" loading="lazy">
-</div>
-{{ end }}
