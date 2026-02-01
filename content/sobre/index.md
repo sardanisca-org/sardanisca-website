@@ -6,6 +6,7 @@ draft: false
 A Sardanisca fica numa tranquila courela a cerca de 2Km da Azaruja, uma aldeia bastante viva, habitada por gente de todas as idades e com uma considerável actividade cultural, tendo em conta a sua pequena dimensão. É conhecida por ser um centro importante na produção da cortiça.
 
 - Morada: Courelas do Monte Branco, 7005-127 Azaruja
+- Contacto: {{< cloakemail "info@sardanisca.org" >}}
 - Localização GPS: [38.68830, -7.76270][1]
 
 ## Fundadores
