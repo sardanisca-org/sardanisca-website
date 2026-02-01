@@ -1,0 +1,33 @@
+
+{{- $cols := .Get "cols" | default "3" -}}
+{{- $gap := .Get "gap" | default "5px" -}}
+{{- $match := .Get "match" | default "images/*" -}}
+{{- $galleryName := .Get "name" | default "gallery" -}}
+{{- $clickable := .Get "clickable" | default "false" -}}
+
+<div class="image-gallery" style="display: grid; grid-template-columns: repeat({{ $cols }}, 1fr); gap: {{ $gap }}; margin: 0.3rem 0;">
+  {{- with .Page.Resources.Match $match -}}
+    {{- with .ByType "image" -}}
+      {{- range . -}}
+        {{- $thumb := .Fit "800x800 q85" -}}
+        {{- $preview := .Fit "48x48 q50" -}}
+        {{- if eq $clickable "true" -}}
+        <a data-fancybox="{{ $galleryName }}"
+           href="{{ .RelPermalink }}"
+           data-caption="{{ .Title | default .Name }}"
+           style="display: block; line-height: 0;">
+          <img src="{{ $thumb.RelPermalink }}"
+               alt="{{ .Title | default .Name }}"
+               loading="lazy"
+               style="width: 100%; height: auto; display: block;">
+        </a>
+        {{- else -}}
+        <img src="{{ .RelPermalink }}"
+             alt="{{ .Title | default .Name }}"
+             loading="lazy"
+             style="width: 100%; height: auto; display: block;">
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+</div>

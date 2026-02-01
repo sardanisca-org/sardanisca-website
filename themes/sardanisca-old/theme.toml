@@ -3,7 +3,7 @@
 
 name = "Sardanisca"
 license = "MIT"
-description = "Adaptations to Archie theme"
+description = "Sardanisca é baseado no Archie"
 min_version = "0.41"
 
 [author]

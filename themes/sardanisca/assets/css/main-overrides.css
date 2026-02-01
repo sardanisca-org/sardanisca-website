@@ -1,0 +1,22 @@
+/* Links */
+a {
+  /* Fallback for older browsers */
+  border-bottom: 2px solid var(--color-primary, #dc143c);
+  /* Modern logical properties */
+  border-block-end: 2px solid var(--color-primary, #dc143c);
+}
+
+/* Lists */
+ul > li::before {
+  content: '• ';
+}
+
+/* Images */
+img {
+  border: 0px solid var(--color-background-pre, #ececec);
+}
+
+/* Footer */
+footer {
+  border-block-start: 0.2rem dotted var(--color-border, #663399);
+}

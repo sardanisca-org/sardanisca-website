@@ -1,0 +1,15 @@
+<div class="post-container">
+  <!-- Main Content -->
+  <div class="post-content">
+    <div class="title">
+      {{ if isset .Data "Term" }}
+      <h1>Entries tagged - "{{ .Data.Term }}"</h1>
+      {{ else }}
+      <h1 class="title">{{ .Title }}</h1>
+      {{ end }}
+    </div>
+    <section class="body">
+      {{ .Content }}
+    </section>
+  </div>
+</div>

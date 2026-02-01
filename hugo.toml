@@ -2,7 +2,7 @@ baseURL = 'https://sardanisca.org'
 languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
 defaultContentLanguage = "pt"
-theme = ["hugo-cloak-email", "sardanisca"]
+theme = ["hugo-cloak-email", "sardanisca", "archie"]
 copyright = "Sardanisca"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
@@ -14,7 +14,7 @@ keywords = "Arte, Música, Alentejo"
 date_format = "2.Jan2006"
 mathjax = false
 katex = false
-customCSS = ["css/fancybox-custom.css", "css/gallery.css"]
+customCSS = ["css/main-overrides.css", "css/extra.css", "css/fancybox-custom.css", "css/gallery.css"]
 
 [permalinks]
 posts = "/:year/:slug/"

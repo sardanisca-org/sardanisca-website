@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main>
+  <article>
+    {{- partial "title-and-content.html" . -}}
+  </article>
+  {{- partial "past-and-future-lists.html" (dict "pages" .Pages "future_title" "Próximos" "past_title" "Anteriores") -}}
+</main>
+{{ end }}
