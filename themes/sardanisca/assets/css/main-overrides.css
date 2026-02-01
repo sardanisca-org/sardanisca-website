@@ -9,6 +9,7 @@ a {
 /* Lists */
 ul > li::before {
   content: '• ';
+  font-weight: normal;
 }
 
 /* Images */
@@ -19,4 +20,8 @@ img {
 /* Footer */
 footer {
   border-block-start: 0.2rem dotted var(--color-border, #663399);
+}
+
+ul, ul li {
+  font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
