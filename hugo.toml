@@ -35,11 +35,11 @@ url = "mailto:info@sardanisca.org"
   weight = 1
 
 [[menu.main]]
-  name = "Eventos"
-  url = "/eventos/"
+  name = "Residências"
+  url = "/residencias/"
   weight = 2
 
 [[menu.main]]
-  name = "Residências"
-  url = "/residencias/"
+  name = "Eventos"
+  url = "/eventos/"
   weight = 3
