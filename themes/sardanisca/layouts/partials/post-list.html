@@ -1,5 +1,5 @@
+<h2>{{ .title }}</h2>
 {{- if and .posts (gt (len .posts) 0) -}}
-  <h2>{{ .title }}</h2>
   <ul class="posts">
     {{- range .posts -}}
       <li class="post">
@@ -11,4 +11,6 @@
       </li>
     {{- end -}}
   </ul>
+{{- else -}}
+  <p>Nada encontrado</p>
 {{- end -}}
