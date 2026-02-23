@@ -2,11 +2,11 @@
   <div style="display: flex">
     {{- range $index, $key := .Site.Params.Social -}} {{- if hasPrefix $key.icon
     "simple:" -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"
+    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}" target="_blank"
       ><i class="si si-{{ substr $key.icon 7 }}"></i
     ></a>
     {{- else -}}
-    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"
+    <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}" target="_blank"
       >{{ template "feathericon" (dict "Icon" $key.icon "UseCDN"
       .Site.Params.useCDN) }}</a
     >
@@ -18,7 +18,7 @@
     {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} {{ end }}
   </div>
   <div class="footer-info-small">
-    Construído com <a href="https://gohugo.io">Hugo</a> + <a href="https://github.com/athul/archie">Archie</a>.
+    Construído com <a href="https://gohugo.io" target="_blank">Hugo</a> + <a href="https://github.com/athul/archie" target="_blank">Archie</a>.
   </div>
 </footer>
 {{ if not hugo.IsServer }} {{ template "_internal/google_analytics.html" . }} {{
