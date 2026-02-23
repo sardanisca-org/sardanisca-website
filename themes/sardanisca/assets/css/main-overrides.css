@@ -26,3 +26,9 @@ ul, ul li {
   font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   text-indent: -1ch;
 }
+
+/* Increase top margin for paragraphs after headings to match lists */
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  margin-top: 1em;
+  margin-block-start: 1em;
+}
