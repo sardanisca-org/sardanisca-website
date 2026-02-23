@@ -1,0 +1,7 @@
+<span class="meta">
+  &nbsp;
+  {{ dateFormat .Site.Params.date_format (time.AsTime (.Params.date_start | default .Date)) }}
+  -
+  {{ dateFormat .Site.Params.date_format (time.AsTime (.Params.date_end | default .Date)) }}
+  {{ if .Draft }}<span class="draft-label">DRAFT</span>{{ end }}
+</span>

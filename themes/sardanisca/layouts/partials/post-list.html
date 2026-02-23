@@ -4,10 +4,7 @@
     {{- range .posts -}}
       <li class="post">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <span class="meta">
-          {{ dateFormat .Site.Params.date_format (time.AsTime (.Params.date_start | default .Date)) }}
-          {{ if .Draft }}<span class="draft-label">DRAFT</span>{{ end }}
-        </span>
+        {{- partial "date-interval.html" . -}}
       </li>
     {{- end -}}
   </ul>
