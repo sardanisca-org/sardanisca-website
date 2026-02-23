@@ -24,4 +24,5 @@ footer {
 
 ul, ul li {
   font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-indent: -1ch;
 }
