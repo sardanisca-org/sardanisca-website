@@ -1,10 +1,12 @@
 ---
-slug: tempo-da-la-1
 title: Tempo da lã | fase 1
+slug: tempo-da-la-1
 date: 2026-01-21T00:00:00Z
 date_start: 2025-05-23T00:00:00Z
 date_end: 2025-05-31T00:00:00Z
 ---
+## Sinopse
+
 Este projecto nasce com o propósito de valorizar a lã através do saber fazer, da memória e da partilha.
 
 O tempo da lã foi uma residência artística realizada no centro cultural Sardanisca, a 3km da Azaruja, no Alentejo, onde se investigou a lã enquanto matéria, memória e prática cultural situada. A Sardanisca foi o lugar ideal para esta residência, onde as ovelhas e a vida pastorícia estão presentes e envolvem-nos. Através de contactos com pastores locais, foi possível participar e documentar uma tosquia, permitindo a recolha direta da lã. Foi possível a identificação da lã e dos erros e práticas a evitar na tosquia a fim de melhorar, não só para não comprometer a qualidade da lã, mas também ajudar o pastor, tosquiador e o bem-estar animal. 
