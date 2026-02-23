@@ -9,6 +9,19 @@ A Sardanisca fica numa tranquila courela a cerca de 2Km da Azaruja, uma aldeia i
 - Contacto: {{< cloakemail "info@sardanisca.org" >}}
 - Localização GPS: [38.68830, -7.76270][1]
 
+## Sustentabilidade
+
+Levamos a sério a sustentabilidade e a biodiversidade e temos implementadas uma série de medidas nesse sentido:
+
+- Instalámos um sistema de produção de energia solar com bateria
+- Criámos swales para reter água da chuva para irrigação do solo
+- Consumimos água do poço, tornada potável através de um sistema de tratamento de água
+- A nossa horta e o nosso pomar produzem parte dos produtos de que nos alimentamos
+- O nosso azeite provém das nossas oliveiras
+- A manutenção da erva está a cargo de um rebanho de ovelhas
+- Fazemos compostagem de todos os resíduos orgânicos
+- Estamos a implementar um conjunto de iniciativas de Permacultura (propostas pelo Arquitecto Paisagista João Jorge) 
+
 ## Fundadores
 
 **Filipa Marques Dias**: Nasceu na Beira Baixa em 1975 e hoje vive em Lisboa. Estudou sociologia mas trabalha na área do marketing, design e produção artística. No atelier de arquitetura Falanstério é responsável pelas redes sociais e marketing digital; Na Tsuri, marca que criou em 2016, desenvolve objetos de luz feitos manualmente. Tirou o curso de teatro no Evoé. É especialista em papel, origamista e desenvolve projetos de fabricação de papel. Recentemente tirou o curso de trabalhar a lã (da ovelha ao fio) e tingimento natural que pretende aprofundar mais.
