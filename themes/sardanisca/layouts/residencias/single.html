@@ -7,7 +7,7 @@
         <div class="title">
           <h1 class="title">{{ .Title }}</h1>
         </div>
-        {{- partial "date-interval.html" . -}}
+        <ul><li>{{- partial "date-interval.html" . -}}</li></ul>
         {{ if isset .Params "tldr" }}
         <div class="tldr">
           <strong>tl;dr:</strong>
