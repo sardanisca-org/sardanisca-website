@@ -10,6 +10,8 @@ The menu links in the header template were using `.URL` directly, which doesn't 
 
 ## Solution
 
+### Step 1: Use Hugo's `relLangURL` function
+
 Updated the menu rendering in `themes/sardanisca/layouts/partials/head.html` to use Hugo's `relLangURL` function:
 
 ```go
@@ -18,24 +20,30 @@ Updated the menu rendering in `themes/sardanisca/layouts/partials/head.html` to 
 {{ end }}
 ```
 
-The `relLangURL` function takes a path and converts it to a language-aware URL by:
-1. Adding the appropriate language prefix for non-default languages (e.g., `/en/` for English)
-2. Respecting the `relativeURLs = true` configuration by generating relative paths
-3. Maintaining the correct path structure regardless of page depth
+The `relLangURL` function automatically adds the appropriate language prefix for non-default languages.
+
+### Step 2: Remove `relativeURLs = true` setting
+
+Removed `relativeURLs = true` from `hugo.toml` to generate clean, root-relative paths instead of complex relative paths like `../../en/sobre/`.
 
 ## Result
 
-Menu links now work correctly in both languages:
+Menu links now use simple, clean root-relative paths:
 
 ### Portuguese (default)
-- From `/` (homepage): links to `./sobre/`, `./residencias/`, `./eventos/`
-- From `/sobre/`: links to `../sobre/`, `../residencias/`, `../eventos/`
+- `/sobre/` (About)
+- `/residencias/` (Residencies)
+- `/eventos/` (Events)
 
 ### English
-- From `/en/` (homepage): links to `../en/sobre/`, `../en/residencias/`, `../en/eventos/`
-- From `/en/sobre/`: links to `../../en/sobre/`, `../../en/residencias/`, `../../en/eventos/`
+- `/en/sobre/` (About)
+- `/en/residencias/` (Residencies)
+- `/en/eventos/` (Events)
 
-All paths correctly maintain the language context, so clicking menu items keeps you in the same language.
+These paths are:
+- **Consistent**: The same path works from any page depth
+- **Clean**: Simple, readable URLs without complex relative navigation
+- **Language-aware**: Automatically include `/en/` prefix for English pages
 
 ## Testing
 
@@ -49,7 +57,7 @@ The same behavior works for Portuguese - menu navigation stays within the Portug
 ## Technical Notes
 
 - The `relLangURL` function is Hugo's built-in way to create language-aware URLs
-- It respects the site's `relativeURLs` configuration setting
-- For the default language (Portuguese), it generates paths without a language prefix
-- For other languages (English), it includes the language code in the path (e.g., `/en/`)
-- The relative path structure (`../`, `../../`) adjusts based on the current page's depth in the site structure
+- Root-relative paths (starting with `/`) are cleaner and more maintainable than complex relative paths
+- For the default language (Portuguese), paths have no language prefix
+- For other languages (English), the language code is included in the path (e.g., `/en/`)
+- This approach works consistently regardless of page depth in the site structure

@@ -4,7 +4,6 @@ theme = ["hugo-cloak-email", "sardanisca", "archie"]
 copyright = "Sardanisca"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
-relativeURLs = true
 defaultContentLanguage = "pt"
 
 [languages]
