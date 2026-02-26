@@ -1,0 +1,85 @@
+# Portuguese (Portugal) translations
+
+[readMore]
+other = "Ler mais"
+
+[posted]
+other = "Publicado"
+
+[on]
+other = "em"
+
+[by]
+other = "por"
+
+[tags]
+other = "Etiquetas"
+
+[categories]
+other = "Categorias"
+
+[recent]
+other = "Recente"
+
+[older]
+other = "Mais antigo"
+
+[newer]
+other = "Mais recente"
+
+[previous]
+other = "Anterior"
+
+[next]
+other = "Seguinte"
+
+[home]
+other = "Início"
+
+[about]
+other = "Sobre"
+
+[residencies]
+other = "Residências"
+
+[events]
+other = "Eventos"
+
+[upcomingEvents]
+other = "Próximos Eventos"
+
+[pastEvents]
+other = "Eventos Passados"
+
+[futureResidencies]
+other = "Próximas Residências"
+
+[pastResidencies]
+other = "Residências Passadas"
+
+[upcoming]
+other = "Próximos"
+
+[past]
+other = "Anteriores"
+
+[builtWith]
+other = "Construído com"
+
+[draft]
+other = "RASCUNHO"
+
+[tableOfContents]
+other = "Índice"
+
+[allTags]
+other = "Todas as etiquetas"
+
+[allArticles]
+other = "Todos os artigos"
+
+[entriesTagged]
+other = "Entradas marcadas com"
+
+[nothingFound]
+other = "Nada encontrado"

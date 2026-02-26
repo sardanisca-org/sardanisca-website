@@ -1,16 +1,56 @@
 baseURL = 'https://sardanisca.org'
-languageCode = 'pt-PT'
 title = 'Centro Cultural Sardanisca'
-defaultContentLanguage = "pt"
 theme = ["hugo-cloak-email", "sardanisca", "archie"]
 copyright = "Sardanisca"
 pagination.PageSize = 15
 refLinksErrorLevel = "WARNING"
 relativeURLs = true
+defaultContentLanguage = "pt"
+
+[languages]
+  [languages.pt]
+    languageCode = 'pt-PT'
+    languageName = 'Português'
+    weight = 1
+    title = 'Centro Cultural Sardanisca'
+    [languages.pt.params]
+      description = "Site do Centro Cultural Sardanisca"
+      keywords = "Arte, Música, Alentejo"
+    [[languages.pt.menu.main]]
+      name = "Sobre"
+      url = "/sobre/"
+      weight = 1
+    [[languages.pt.menu.main]]
+      name = "Residências"
+      url = "/residencias/"
+      weight = 2
+    [[languages.pt.menu.main]]
+      name = "Eventos"
+      url = "/eventos/"
+      weight = 3
+
+  [languages.en]
+    languageCode = 'en-GB'
+    languageName = 'English'
+    weight = 2
+    title = 'Sardanisca Cultural Centre'
+    [languages.en.params]
+      description = "Sardanisca Cultural Centre website"
+      keywords = "Art, Music, Alentejo"
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/sobre/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Residencies"
+      url = "/residencias/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Events"
+      url = "/eventos/"
+      weight = 3
 
 [params]
-description = "Site do Centro Cultural Sardanisca"
-keywords = "Arte, Música, Alentejo"
 date_format = "2.Jan2006"
 mathjax = false
 katex = false
@@ -28,18 +68,3 @@ url = "https://instagram.com/sardanisca.centrocultural/"
 name = "E-mail"
 icon = "mail"
 url = "mailto:info@sardanisca.org"
-
-[[menu.main]]
-  name = "Sobre"
-  url = "/sobre/"
-  weight = 1
-
-[[menu.main]]
-  name = "Residências"
-  url = "/residencias/"
-  weight = 2
-
-[[menu.main]]
-  name = "Eventos"
-  url = "/eventos/"
-  weight = 3

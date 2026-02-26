@@ -3,6 +3,6 @@
   <article>
     {{- partial "title-and-content.html" . -}}
   </article>
-  {{- partial "past-and-future-lists.html" (dict "pages" .Pages "future_title" "Próximos" "past_title" "Anteriores") -}}
+  {{- partial "past-and-future-lists.html" (dict "pages" .Pages "future_title" (i18n "upcoming") "past_title" (i18n "past")) -}}
 </main>
 {{ end }}

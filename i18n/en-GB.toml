@@ -1,0 +1,85 @@
+# English (United Kingdom) translations
+
+[readMore]
+other = "Read more"
+
+[posted]
+other = "Posted"
+
+[on]
+other = "on"
+
+[by]
+other = "by"
+
+[tags]
+other = "Tags"
+
+[categories]
+other = "Categories"
+
+[recent]
+other = "Recent"
+
+[older]
+other = "Older"
+
+[newer]
+other = "Newer"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[home]
+other = "Home"
+
+[about]
+other = "About"
+
+[residencies]
+other = "Residencies"
+
+[events]
+other = "Events"
+
+[upcomingEvents]
+other = "Upcoming Events"
+
+[pastEvents]
+other = "Past Events"
+
+[futureResidencies]
+other = "Upcoming Residencies"
+
+[pastResidencies]
+other = "Past Residencies"
+
+[upcoming]
+other = "Upcoming"
+
+[past]
+other = "Past"
+
+[builtWith]
+other = "Built with"
+
+[draft]
+other = "DRAFT"
+
+[tableOfContents]
+other = "Table of contents"
+
+[allTags]
+other = "All tags"
+
+[allArticles]
+other = "All articles"
+
+[entriesTagged]
+other = "Entries tagged"
+
+[nothingFound]
+other = "Nothing found"
