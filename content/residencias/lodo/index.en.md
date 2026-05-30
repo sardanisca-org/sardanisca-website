@@ -1,6 +1,6 @@
 ---
-title: Lodo
-slug: logo
+title: No Lodo
+slug: no-lodo
 date: 2026-01-20
 date_start: 2025-11-11
 date_end: 2025-11-16
