@@ -1,5 +1,5 @@
 ---
-title: Wool Time | phase 1
+title: Tempo da lã | phase 1
 slug: tempo-da-la-1
 date: 2026-01-21T00:00:00Z
 date_start: 2025-05-23T00:00:00Z
