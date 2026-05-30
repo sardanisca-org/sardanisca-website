@@ -3,5 +3,5 @@
   {{ dateFormat .Site.Params.date_format (time.AsTime (.Params.date_start | default .Date)) }}
   -
   {{ dateFormat .Site.Params.date_format (time.AsTime (.Params.date_end | default .Date)) }}
-  {{ if .Draft }}<span class="draft-label">DRAFT</span>{{ end }}
+  {{ if .Draft }}<span class="draft-label">{{ i18n "draft" }}</span>{{ end }}
 </span>

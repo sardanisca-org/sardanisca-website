@@ -33,7 +33,7 @@
       <!-- TOC -->
       {{ if and (isset .Params "toc") (.Params.toc) }}
       <div class="toc">
-        <strong>Table of contents:</strong>
+        <strong>{{ i18n "tableOfContents" }}:</strong>
         {{ .TableOfContents }}
       </div>
       {{ end }}

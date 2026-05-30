@@ -18,7 +18,7 @@
     {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} {{ end }}
   </div>
   <div class="footer-info-small">
-    Construído com <a href="https://gohugo.io" target="_blank">Hugo</a> + <a href="https://github.com/athul/archie" target="_blank">Archie</a>.
+    {{ i18n "builtWith" }} <a href="https://gohugo.io" target="_blank">Hugo</a> + <a href="https://github.com/athul/archie" target="_blank">Archie</a>.
   </div>
 </footer>
 {{ if not hugo.IsServer }} {{ template "_internal/google_analytics.html" . }} {{
